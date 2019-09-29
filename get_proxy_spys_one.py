@@ -3,8 +3,6 @@ import sys
 import time
 import re
 import requests
-
-sys.path.insert(1, '/home/fanat_tortov/Документы/selenium')
 from module import *
 
 def getProxL(raw_str):
