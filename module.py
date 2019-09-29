@@ -16,9 +16,6 @@ from telethon.tl.functions.contacts import ImportContactsRequest
 from telethon.tl.functions.channels import InviteToChannelRequest
 from PIL import Image
 import sendcaptcha
-
-
-sys.path.insert(1, '/home/fanat_tortov/Документы/selenium/names')
 from get_name import *
 
 def checkJson(js):
