@@ -20,7 +20,6 @@ from contextlib import contextmanager
 import pickle
 import tgappmanage
 
-sys.path.insert(1, '/home/fanat_tortov/Документы/selenium')
 from module import *
 		
 
