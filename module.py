@@ -164,13 +164,7 @@ class User:
 
 class Sim5Worker:
 	def __init__(self):
-		__rawApi = ['eyJhbGciOiJSUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE1OTkyNDQzMDksImlhdCI6MT',
-		'U2NzcwODMwOSwicmF5IjoiYmRiMzM2NjJlNDAzZDBhMzkzOTI4OTg1NDUwMzJlOTEiLCJzd',
-		'WIiOjIyMDEwMH0.ybu8Hz0HBZguJvjpo4UP5dw0XwzF2rFjaEoy7UakqLiylh3fc97wMh_p',
-		'vtf_cP3iRkKyGS9DpJv-e-qxDeYGfI98N5UqsYIu3hCrlx72aHKZSdqJpH95YY83aoeQ4WU',
-		'JxJm9fd-EP4kBXLuNZfIxkBcsRrqwOVSCsx3JiJ0n0yyAmC928h-2AeNHN-Kj69gqw2rBBK',
-		'xqtcDFrb6tnQT3eerb-MYdWEP1gAFVExPa1ay2N1cTteFFxo0pAtGdambWlyTLm34SYqhLM',
-		'xqYMLKUYBtuuPAurXm472eFVFyZOVLLUL3AVTGtQT1mdxUu7LbM_qUW7Lm8_KXT0VCG2JFTuw']
+		
 		self.token = 'Bearer '+"".join(__rawApi)
 		self.rawServInfo = [None,time.time()]
 		self.numberInfo = None
